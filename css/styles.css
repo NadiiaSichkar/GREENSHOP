@@ -1,9 +1,11 @@
-*{
+
+* {
     padding: 0;
-margin: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-input{
+
+input {
     font-weight: 400;
     font-size: 14px;
     line-height: 114%;
@@ -16,7 +18,8 @@ input{
     height: 40px;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     max-width: 500px;
     margin: auto;
     border: solid 2px black;
@@ -24,21 +27,26 @@ input{
     padding: 52px 100px 50px;
     box-sizing: border-box
 }
-#box_model{
+
+#box_model {
     text-align: center;
     margin-bottom: 40px;
 }
-.text{
+
+.text {
     font-weight: 400;
     font-size: 13px;
     line-height: 123%;
-    color: #3d3d3d;margin-bottom: 14px;
+    color: #3d3d3d;
+    margin-bottom: 14px;
 }
-.mb{
+
+.mb {
     margin-bottom: 27px;
     text-align: center;
 }
-button{
+
+button {
     font-weight: 700;
     font-size: 16px;
     line-height: 100%;
@@ -52,14 +60,14 @@ button{
     height: 40px;
 }
 
-.container a{
+.container a {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-right: 12px;
     margin-bottom: 16px;
-    border: 1px solid #eaeaea;
+    border: 1px solid #eaeaee;
     border-radius: 5px;
     font-weight: 500;
     font-size: 13px;
@@ -69,15 +77,153 @@ button{
     height: 40px;
     box-sizing: border-box;
 }
-.container #box_model span:first-of-type{
+
+.container #box_model span:first-of-type {
     font-weight: 500;
     font-size: 20px;
     line-height: 80%;
-    color: #3d3d3d; border-right: 1px solid;padding-right: 5px
+    color: #3d3d3d;
+    border-right: 1px solid;
+    padding-right: 5px
 }
-.container #box_model span:last-of-type{
+
+.container #box_model span:last-of-type {
     font-weight: 500;
     font-size: 20px;
     line-height: 80%;
-    color: #46a358; padding-left: 5px;
+    color: #46a358;
+    padding-left: 5px;
 }
+
+.norm {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    padding-top: 31px;
+}
+
+header nav, header nav li, header .logo {
+    display: inline-block;
+}
+
+header ul {
+    list-style: none;
+}
+
+header nav li a {
+    text-decoration: none;
+}
+
+header .logo {
+    margin-right: 229px;
+}
+
+header .login {
+    margin-left: 370px;
+}
+
+header nav li {
+    margin-right: 50px;
+}
+
+header nav li:last-of-type {
+    margin-right: 0;
+}
+
+header nav li a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+}
+
+header nav li:after {
+    height: 3px;
+    /*background-color: #46a358;*/
+    background-color: transparent;
+    width: 100%;
+    content: "";
+    display: block;
+    margin-top: 22px;
+    transition: 0.3s ;
+}
+
+header nav li:hover:after {
+    background-color: #46a358;
+}
+
+header .login{
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 6px;
+    background: #46a358;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 8px 17px 7px;
+}
+.login:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/Logout.svg");
+    width: 20px;
+    height: 20px;
+}
+.banner .norm{
+    background:  linear-gradient(135deg, #f5f5f5 0%, #f5f5f5 100%);
+    min-height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner article{
+    max-width: 557px;
+    display: inline-block;
+    margin-right: 83px;
+}
+h4{
+    width: 100%;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin-left: 43px;
+    margin-bottom: 7px;
+}
+h1 {
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #3d3d3d;
+}
+h1 span{
+    color: #46a358;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
