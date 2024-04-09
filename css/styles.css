@@ -183,6 +183,7 @@ header .login{
     max-width: 557px;
     display: inline-block;
     margin-right: 83px;
+    margin-left: 43px;
 }
 h4{
     width: 100%;
@@ -193,25 +194,39 @@ h4{
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #3d3d3d;
-    margin-left: 43px;
     margin-bottom: 7px;
 }
 h1 {
-    margin-left: 40px;
     font-weight: 900;
     font-size: 70px;
     line-height: 100%;
-    text-transform: uppercase;
+    text-transform: 60px;
     color: #3d3d3d;
+    margin-bottom: 5px;
+
 }
 h1 span{
     color: #46a358;
 }
-
-
-
-
-
+p{
+    width: 557px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+    margin-bottom: 44px;
+}
+.banner a {
+    border-radius: 6px;
+    background: #46a358;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 27px;
+}
 
 
 
