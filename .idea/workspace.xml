@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="banner">
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-black-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-black-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-black-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-black-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-black-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-bold-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-bold-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-bold-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-bold-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-medium-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-medium-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-medium-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-medium-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-medium-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-regular-webfont.woff2" afterDir="false" />
+    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add fonts">
+      <change afterPath="$PROJECT_DIR$/images/iconly.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -63,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/GREENSHOP/fonts",
+    "last_opened_file_path": "C:/GREENSHOP/images",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -75,8 +56,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\GREENSHOP\fonts" />
       <recent name="C:\GREENSHOP\images" />
+      <recent name="C:\GREENSHOP\fonts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -109,7 +90,17 @@
       <workItem from="1712660478844" duration="180000" />
       <workItem from="1712660724412" duration="618000" />
       <workItem from="1712661660220" duration="17271000" />
-      <workItem from="1712833266070" duration="18740000" />
+      <workItem from="1712833266070" duration="19605000" />
+      <workItem from="1712941364487" duration="1312000" />
+      <workItem from="1712942718397" duration="9000" />
+      <workItem from="1712942817823" duration="19000" />
+      <workItem from="1712942854347" duration="24000" />
+      <workItem from="1712942894774" duration="24000" />
+      <workItem from="1712943010528" duration="30000" />
+      <workItem from="1712945361424" duration="596000" />
+      <workItem from="1712968751678" duration="5705000" />
+      <workItem from="1713136953832" duration="6342000" />
+      <workItem from="1713182025926" duration="12889000" />
     </task>
     <task id="LOCAL-00001" summary="add green border">
       <option name="closed" value="true" />
@@ -135,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712677794902</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add fonts">
+      <option name="closed" value="true" />
+      <created>1712940204541</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712940204541</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +144,7 @@
     <MESSAGE value="add green border" />
     <MESSAGE value="add green border&#10;add baner" />
     <MESSAGE value="banner" />
-    <option name="LAST_COMMIT_MESSAGE" value="banner" />
+    <MESSAGE value="add fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fonts" />
   </component>
 </project>
