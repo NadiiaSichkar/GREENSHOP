@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add fonts">
-      <change afterPath="$PROJECT_DIR$/images/iconly.svg" afterDir="false" />
+    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add categories">
+      <change afterPath="$PROJECT_DIR$/images/SuperSaleBanner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/flower1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/flower2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/flower3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/flower4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/flower5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/flower6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/flower7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/flower8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/flower9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/super sale.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -24,6 +34,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
@@ -100,7 +116,7 @@
       <workItem from="1712945361424" duration="596000" />
       <workItem from="1712968751678" duration="5705000" />
       <workItem from="1713136953832" duration="6342000" />
-      <workItem from="1713182025926" duration="12889000" />
+      <workItem from="1713182025926" duration="37565000" />
     </task>
     <task id="LOCAL-00001" summary="add green border">
       <option name="closed" value="true" />
@@ -134,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712940204541</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add categories">
+      <option name="closed" value="true" />
+      <created>1713234852857</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713234852857</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +169,7 @@
     <MESSAGE value="add green border&#10;add baner" />
     <MESSAGE value="banner" />
     <MESSAGE value="add fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fonts" />
+    <MESSAGE value="add categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="add categories" />
   </component>
 </project>

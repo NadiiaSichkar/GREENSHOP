@@ -278,7 +278,7 @@ h1 {
 h1 span{
     color: #46a358;
 }
-p{
+.banner p{
     width: 557px;
     height: 45px;
     font-weight: 400;
@@ -314,8 +314,8 @@ p{
 .categories .left_sidebar{
     max-width: 310px;
     background: #fbfbfb;
-    /*width: 100%;*/
-    min-height: 774px;
+    width: 100%;
+    /*min-height: 774px;*/
 }
 .left_sidebar h5{
     font-weight: 700;
@@ -330,7 +330,7 @@ p{
     list-style: none;
     display: flex;
     flex-direction: column;
-    width: 91px;
+    /*width: 91px;*/
     height: 100%;
     margin-left: 30px;
     margin-top: 7px;
@@ -346,30 +346,35 @@ p{
     justify-content: space-between;
     font-family: 'cera_proregular';
 }
-/*.left_sidebar ul li a:first-of-type{*/
-/*    font-weight: 700;*/
-/*    font-size: 15px;*/
-/*    line-height: 267%;*/
-/*    color: #46a358;*/
-/*    font-family: 'cera_probold';*/
-/*}*/
+.left_sidebar ul li:hover a{
+    font-weight: 700;
+    color: #46a358;
+}
+.left_sidebar img{
+    background-image: url("../images/SuperSaleBanner.png");
+    width: 310px;
+    height: 470px;
+}
 
 
-.categories .right_content{
+
+.categories .right_content {
     max-width: 840px;
     width: 100%;
+
 }
-.categories .right_content.flex_2{
+.categories .right_content .flex_2 {
     display: flex;
     justify-content: space-between;
-    /*flex-direction: row;*/
-
 }
-.flex_2 ul{
+
+.categories .flex_2 ul{
     list-style: none;
+    display: flex;
+    gap: 39px;
 
 }
-.flex_2 ul li a {
+.categories .flex_2 ul li a {
     text-decoration: none;
     font-weight: 400;
     font-size: 15px;
@@ -377,19 +382,63 @@ p{
     color: #3d3d3d;
     font-family: 'cera_proregular';
 }
+.categories .flex_2 ul li:hover a{
+    font-weight: 700;
+    color: #46a358;
+}
+.categories .flex_2 li:hover:after{
+    height: 2px;
+    background-color: #46a358;
+    width: 100%;
+    content: "";
+    margin-top: 7px;
+}
 
-.flex_2 p{
+
+.categories .flex_2  p{
     font-weight: 400;
     font-size: 15px;
     line-height: 107%;
     color: #3d3d3d;
     font-family: 'cera_proregular';
+}
+
+.categories .flex_2  p:after{
+    content:"" ;
+    display: inline-block;
+    background-image: url("../images/iconly.svg");
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
 
 }
-.flex_2 ul p{
-    flex-direction: row;
 
+.categories .right_content article{
+    width: 258px;
+    margin-top: 31px;
 }
+
+.categories .flex_2  article p{
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3d3d3d;
+    font-family: 'cera_proregular';
+}
+.categories .flex_2  article span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #46a358;
+    margin-top: 6px;
+    font-family: 'cera_probold';
+}
+
+
+
+
+
 
 
 
