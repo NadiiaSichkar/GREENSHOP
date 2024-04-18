@@ -42,6 +42,17 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+font-family: 'cera_prolight';
+src: url('../fonts/cerapro-light-webfont.eot');
+src: url('../fonts/cerapro-light-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/cerapro-light-webfont.woff2') format('woff2'),
+url('../fonts/cerapro-light-webfont.woff') format('woff'),
+url('../fonts/cerapro-light-webfont.ttf') format('truetype'),
+url('../fonts/cerapro-light-webfont.svg#cera_prolight') format('svg');
+font-weight: normal;
+font-style: normal;
+}
 
 * {
     padding: 0;
@@ -301,6 +312,8 @@ h1 span{
     font-family: 'cera_probold';
 }
 
+
+
 .categories .container_3 {
     display: flex;
     justify-content: space-between;
@@ -308,14 +321,15 @@ h1 span{
     max-width: 1200px;
     margin: auto;
     padding-top: 36px;
-
 }
-
 .categories .left_sidebar{
     max-width: 310px;
     background: #fbfbfb;
     width: 100%;
-    /*min-height: 774px;*/
+    min-height: 774px;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
 }
 .left_sidebar h5{
     font-weight: 700;
@@ -326,14 +340,15 @@ h1 span{
     margin-left: 18px;
     font-family: 'cera_probold';
 }
-.left_sidebar ul{
+.categories .left_sidebar ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    /*width: 91px;*/
+    width: 91px;
     height: 100%;
     margin-left: 30px;
     margin-top: 7px;
+    /*margin-bottom: 377px;*/
 }
 
 .left_sidebar ul li a {
@@ -350,13 +365,6 @@ h1 span{
     font-weight: 700;
     color: #46a358;
 }
-.left_sidebar img{
-    background-image: url("../images/SuperSaleBanner.png");
-    width: 310px;
-    height: 470px;
-}
-
-
 
 .categories .right_content {
     max-width: 840px;
@@ -366,13 +374,13 @@ h1 span{
 .categories .right_content .flex_2 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 31px;
 }
 
 .categories .flex_2 ul{
     list-style: none;
     display: flex;
     gap: 39px;
-
 }
 .categories .flex_2 ul li a {
     text-decoration: none;
@@ -380,6 +388,7 @@ h1 span{
     font-size: 15px;
     line-height: 107%;
     color: #3d3d3d;
+    margin-bottom: 31px;
     font-family: 'cera_proregular';
 }
 .categories .flex_2 ul li:hover a{
@@ -389,11 +398,12 @@ h1 span{
 .categories .flex_2 li:hover:after{
     height: 2px;
     background-color: #46a358;
+    /*background-color:transparent;*/
     width: 100%;
     content: "";
+    display: block;
     margin-top: 7px;
 }
-
 
 .categories .flex_2  p{
     font-weight: 400;
@@ -410,22 +420,30 @@ h1 span{
     width: 16px;
     height: 16px;
     margin-left: 5px;
-
 }
 
-.categories .right_content article{
+.categories .right_content article {
     width: 258px;
-    margin-top: 31px;
+    margin-bottom: 70px;
 }
+
+.categories .right_content .flex_2 {
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
 
 .categories .flex_2  article p{
-    margin-top: 12px;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
     color: #3d3d3d;
+    padding-top: 20px;
     font-family: 'cera_proregular';
 }
+.categories .flex_2  article p:after{
+    display: none;
+}
+
 .categories .flex_2  article span{
     font-weight: 700;
     font-size: 18px;
