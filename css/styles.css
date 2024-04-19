@@ -327,9 +327,8 @@ h1 span{
     background: #fbfbfb;
     width: 100%;
     min-height: 774px;
-    display: flex;
     flex-direction: column;
-    /*align-items: center;*/
+
 }
 .left_sidebar h5{
     font-weight: 700;
@@ -342,14 +341,16 @@ h1 span{
 }
 .categories .left_sidebar ul {
     list-style: none;
-    display: flex;
-    flex-direction: column;
-    width: 91px;
-    height: 100%;
+    /*width: 91px;*/
+    /*height: 100%;*/
     margin-left: 30px;
     margin-top: 7px;
-    /*margin-bottom: 377px;*/
+    margin-bottom: 377px;
 }
+.categories .left_sidebar img{
+    margin-left: -30px;
+}
+
 
 .left_sidebar ul li a {
     list-style: none;
@@ -388,21 +389,23 @@ h1 span{
     font-size: 15px;
     line-height: 107%;
     color: #3d3d3d;
-    margin-bottom: 31px;
     font-family: 'cera_proregular';
 }
 .categories .flex_2 ul li:hover a{
     font-weight: 700;
     color: #46a358;
 }
-.categories .flex_2 li:hover:after{
+.categories .flex_2 li:after{
     height: 2px;
-    background-color: #46a358;
-    /*background-color:transparent;*/
+    /*background-color: #46a358;*/
+    background-color:transparent;
     width: 100%;
     content: "";
     display: block;
     margin-top: 7px;
+}
+.categories .flex_2 li:hover:after{
+    background-color: #46a358;
 }
 
 .categories .flex_2  p{
@@ -424,7 +427,8 @@ h1 span{
 
 .categories .right_content article {
     width: 258px;
-    margin-bottom: 70px;
+    max-height: 350px;
+    margin-bottom: 65px;
 }
 
 .categories .right_content .flex_2 {
@@ -437,7 +441,7 @@ h1 span{
     font-size: 16px;
     line-height: 100%;
     color: #3d3d3d;
-    padding-top: 20px;
+    margin-top: 18px;
     font-family: 'cera_proregular';
 }
 .categories .flex_2  article p:after{
@@ -452,6 +456,50 @@ h1 span{
     margin-top: 6px;
     font-family: 'cera_probold';
 }
+.categories .pages ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 90px;
+    margin-bottom: 82px;
+    gap: 10px;
+}
+.categories .pages li{
+    list-style: none;
+    /*justify-content: flex-end;*/
+    /*flex-direction: row;*/
+}
+.categories .pages ul a {
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    /*width: 35px;*/
+    /*height: 35px;*/
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    font-family: 'cera_prolight';
+    text-decoration: none;
+    align-items: center;
+    padding: 9px 11px;
+}
+.categories .pages ul li:hover a{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+    background: #46a358;
+}
+
+.categories .pages  img{
+    background-image: url("../images/ArrowRight 2.svg");
+    padding: 9px 11px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+}
+
+
+
 
 
 

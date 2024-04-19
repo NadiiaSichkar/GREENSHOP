@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add imeges">
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-light-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-light-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-light-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/cerapro-light-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ArrowRight 2.svg" afterDir="false" />
+    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add imeges fonts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/super sale.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,23 +43,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.registration.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/GREENSHOP/fonts",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.registration.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/GREENSHOP/fonts&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\GREENSHOP\fonts" />
@@ -115,7 +108,8 @@
       <workItem from="1713136953832" duration="6342000" />
       <workItem from="1713182025926" duration="42844000" />
       <workItem from="1713317350683" duration="757000" />
-      <workItem from="1713351078076" duration="12479000" />
+      <workItem from="1713351078076" duration="12843000" />
+      <workItem from="1713527559801" duration="9363000" />
     </task>
     <task id="LOCAL-00001" summary="add green border">
       <option name="closed" value="true" />
@@ -165,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713292783424</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add imeges fonts">
+      <option name="closed" value="true" />
+      <created>1713409546479</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713409546479</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +180,7 @@
     <MESSAGE value="add fonts" />
     <MESSAGE value="add categories" />
     <MESSAGE value="add imeges" />
-    <option name="LAST_COMMIT_MESSAGE" value="add imeges" />
+    <MESSAGE value="add imeges fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="add imeges fonts" />
   </component>
 </project>
