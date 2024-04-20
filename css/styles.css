@@ -350,8 +350,6 @@ h1 span{
 .categories .left_sidebar img{
     margin-left: -30px;
 }
-
-
 .left_sidebar ul li a {
     list-style: none;
     font-weight: 400;
@@ -370,7 +368,6 @@ h1 span{
 .categories .right_content {
     max-width: 840px;
     width: 100%;
-
 }
 .categories .right_content .flex_2 {
     display: flex;
@@ -406,6 +403,7 @@ h1 span{
 }
 .categories .flex_2 li:hover:after{
     background-color: #46a358;
+
 }
 
 .categories .flex_2  p{
@@ -429,6 +427,9 @@ h1 span{
     width: 258px;
     max-height: 350px;
     margin-bottom: 65px;
+}
+.categories .right_content article:hover{
+
 }
 
 .categories .right_content .flex_2 {
@@ -456,47 +457,56 @@ h1 span{
     margin-top: 6px;
     font-family: 'cera_probold';
 }
-.categories .pages ul {
+
+.categories .pagination{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.categories .pagination ul {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    /*justify-content: center;*/
     margin-top: 90px;
     margin-bottom: 82px;
     gap: 10px;
+
 }
-.categories .pages li{
+.categories .pagination li{
     list-style: none;
-    /*justify-content: flex-end;*/
-    /*flex-direction: row;*/
-}
-.categories .pages ul a {
     border: 1px solid #e5e5e5;
     border-radius: 4px;
-    /*width: 35px;*/
-    /*height: 35px;*/
+    width: 35px;
+    height: 35px;
+    padding  : 9px 12px 10px 13px;
+    align-content: center;
+}
+.categories .pagination a {
     font-weight: 300;
     font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
     font-family: 'cera_prolight';
     text-decoration: none;
-    align-items: center;
-    padding: 9px 11px;
 }
-.categories .pages ul li:hover a{
+.categories .pagination li:hover  {
+    background-color: #46a358;
+}
+
+.categories .pagination ul li:hover a{
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
     color: #fff;
-    background: #46a358;
+}
+.categories .pagination  img {
+    background-image: url("../images/ArrowRight 2.svg");
+    padding  : 9px 9px 8px 9px;
+    background-repeat: no-repeat;
 }
 
-.categories .pages  img{
-    background-image: url("../images/ArrowRight 2.svg");
-    padding: 9px 11px;
-    border: 1px solid #e5e5e5;
-    border-radius: 4px;
-}
+
+
 
 
 

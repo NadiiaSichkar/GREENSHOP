@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add imeges fonts">
+    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add  class pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -109,7 +109,7 @@
       <workItem from="1713182025926" duration="42844000" />
       <workItem from="1713317350683" duration="757000" />
       <workItem from="1713351078076" duration="12843000" />
-      <workItem from="1713527559801" duration="9363000" />
+      <workItem from="1713527559801" duration="27269000" />
     </task>
     <task id="LOCAL-00001" summary="add green border">
       <option name="closed" value="true" />
@@ -167,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713409546479</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add  class pages">
+      <option name="closed" value="true" />
+      <created>1713537260089</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713537260089</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +189,7 @@
     <MESSAGE value="add categories" />
     <MESSAGE value="add imeges" />
     <MESSAGE value="add imeges fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="add imeges fonts" />
+    <MESSAGE value="add  class pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add  class pages" />
   </component>
 </project>
