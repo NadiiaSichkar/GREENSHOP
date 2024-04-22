@@ -341,8 +341,6 @@ h1 span{
 }
 .categories .left_sidebar ul {
     list-style: none;
-    /*width: 91px;*/
-    /*height: 100%;*/
     margin-left: 30px;
     margin-top: 7px;
     margin-bottom: 377px;
@@ -360,10 +358,16 @@ h1 span{
     justify-content: space-between;
     font-family: 'cera_proregular';
 }
-.left_sidebar ul li:hover a{
+.left_sidebar ul li a:hover{
     font-weight: 700;
+    font-size: 15px;
+    line-height: 267%;
     color: #46a358;
+    font-family: 'cera_probold';
 }
+
+
+
 
 .categories .right_content {
     max-width: 840px;
@@ -374,13 +378,12 @@ h1 span{
     justify-content: space-between;
     margin-bottom: 31px;
 }
-
-.categories .flex_2 ul{
+.categories .flex_2 .all_plants{
     list-style: none;
     display: flex;
     gap: 39px;
 }
-.categories .flex_2 ul li a {
+.categories .flex_2 .all_plants li a {
     text-decoration: none;
     font-weight: 400;
     font-size: 15px;
@@ -388,11 +391,11 @@ h1 span{
     color: #3d3d3d;
     font-family: 'cera_proregular';
 }
-.categories .flex_2 ul li:hover a{
+.categories .right_content .all_plants li:hover a{
     font-weight: 700;
     color: #46a358;
 }
-.categories .flex_2 li:after{
+.categories .flex_2 .all_plants li:after{
     height: 2px;
     /*background-color: #46a358;*/
     background-color:transparent;
@@ -401,7 +404,7 @@ h1 span{
     display: block;
     margin-top: 7px;
 }
-.categories .flex_2 li:hover:after{
+.categories .flex_2 .all_plants li:hover:after{
     background-color: #46a358;
 }
 
@@ -442,29 +445,31 @@ h1 span{
 /*    border-radius: 4px;*/
 /*    background: #fff*/
 /*}*/
-.categories .right_content article ul{
+.categories .right_content article .art_icon{
     list-style: none;
     display: flex;
     gap: 10px;
     position: absolute;
     bottom: 57px;
-    left: calc(50%- 62px);
+    left: calc(50% - 62px);
     width: 125px;
     height: 35px;
     opacity: 0;
     transition: 0.4s;
 }
-
-.categories .right_content article ul li{
+article .art_icon li{
     border-radius: 4px;
     width: 35px;
     height: 35px;
-    background: #fff
+    background: #fff;
+    padding: 7px 8px;
 }
+
 .categories article ul li:nth-child(2):hover a svg path{
-    stroke:green!important;}
+    fill: #46a358!important;
+}
 .categories article ul li:last-of-type:hover a svg path{
-    stroke: green!important;
+fill: #46a358!important;
 }
 .categories .right_content article .sale{
     position: absolute;
@@ -505,7 +510,7 @@ h1 span{
     font-family: 'cera_probold';
 }
 .categories .flex_2 article .old_price{
-    padding-right: 16px;
+    padding-left: 16px;
     font-weight: 400;
     font-size: 18px;
     line-height: 89%;
@@ -513,19 +518,18 @@ h1 span{
     font-family: 'cera_proregular';
     display: inline-block;
     text-decoration:line-through;
-    /*position: relative;*/
 }
-.categories .flex_2 article span .old_price:after{
-    content: "";
-    display: block;
-    position: absolute;
-    height: 1px;
-    background-color: #46a358;
-    width: 100%;
-    top:5px;
-    left: 0;
-    transform: rotate(-16deg);
-}
+/*.categories .flex_2 article span .old_price:after{*/
+/*    content: "";*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    height: 1px;*/
+/*    background-color: #46a358;*/
+/*    width: 100%;*/
+/*    top:5px;*/
+/*    left: 0;*/
+/*    transform: rotate(-16deg);*/
+/*}*/
 
 
 
@@ -535,8 +539,6 @@ h1 span{
 }
 .categories .pagination ul {
     display: flex;
-    /*flex-direction: row;*/
-    /*justify-content: center;*/
     margin-top: 90px;
     margin-bottom: 82px;
     gap: 10px;
@@ -547,10 +549,9 @@ h1 span{
     border-radius: 4px;
     width: 35px;
     height: 35px;
-    padding  : 9px 12px 10px 13px;
-    align-content: center;
-    display: block;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .categories .pagination a {
     font-weight: 300;
