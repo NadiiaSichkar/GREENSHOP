@@ -433,18 +433,38 @@ h1 span{
 .categories .right_content article:hover{
     border-top: 1px solid #46a358;
 }
+.categories .right_content article:hover ul{
+    opacity: 1;
+}
+/*.categories .right_content article ul{*/
+/*    width: 35px;*/
+/*    height: 35px;*/
+/*    border-radius: 4px;*/
+/*    background: #fff*/
+/*}*/
 .categories .right_content article ul{
-    width: 35px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 57px;
+    left: calc(50%- 62px);
+    width: 125px;
     height: 35px;
-    border-radius: 4px;
-    background: #fff
+    opacity: 0;
+    transition: 0.4s;
 }
 
-
 .categories .right_content article ul li{
-    width: 20px;
-    height: 20px;
-
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    background: #fff
+}
+.categories article ul li:nth-child(2):hover a svg path{
+    stroke:green!important;}
+.categories article ul li:last-of-type:hover a svg path{
+    stroke: green!important;
 }
 .categories .right_content article .sale{
     position: absolute;
