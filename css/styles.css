@@ -164,8 +164,8 @@ header {
 }
 
 header nav, header nav li, header .logo {
-    display: inline-block;
-    text-align: center;
+    /*display: inline-block;*/
+    /*text-align: center;*/
     align-items: center;
 
 }
@@ -178,28 +178,49 @@ header ul {
     display: flex;
     gap: 50px;
 }
-header nav ul .dropdown{
+header nav ul.dropdown{
     display: block;
     background-color: #edf6ee;
     position:absolute;
-    top:34px;
+    min-width: 188px;
+    top: 64px;
+    right: -50px;
     height: 0;
     opacity: 0;
+    padding-left: 14px;
 }
-header nav ul .dropdown li{
-    /*display: block;*/
-    /*justify-content: space-between;*/
-    /*margin-top: 30px;*/
-    /*margin-right: 14px;*/
+li.drop ul.dropdown li:last-of-type:after{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/Frame_right.svg");
+    width: 6px;
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    top: -11px;
+    transition: 0.5s;
 }
-header nav ul .dropdown_2{
+li.drop ul.dropdown li:last-of-type:hover:after{
+    transform: rotate(180deg);
+}
+
+li.drop ul.dropdown_2 li:last-of-type:after{
+    display: none;
+}
+ul.dropdown li:hover:after{
+    background-color: transparent;
+}
+header ul.dropdown_2{
     display: block;
     background-color: #edf6ee;
     position:absolute;
-    top:0px;
-    right:-84px;
+    min-width: 178px;
+    top:-76px;
+    /*right:-84px;*/
+    left: 100%;
     height: 0;
     opacity: 0;
+    padding-left: 14px;
 }
 
 header nav ul li.drop,header nav ul li.drop_2{
@@ -218,10 +239,12 @@ header nav ul li.drop_2:hover .dropdown_2{
 
 header nav ul .dropdown li{
     display: block;
-    margin-left: 14px;
+    /*margin-left: 14px;*/
+    /*margin-top: 7px;*/
+    /*margin-bottom: 7px;*/
     border: none;
 }
-header nav ul.dropdown li a,ul.dropdown_2 li a{
+header nav ul.dropdown li a, ul.dropdown_2 li a{
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
@@ -277,7 +300,7 @@ header nav li ul li{
     margin-right: 0;
 }
 
-header nav ul.dropdown li:hover a {
+header nav li ul li:hover a {
     font-weight: 700;
     font-size: 16px;
     color: #fff;
