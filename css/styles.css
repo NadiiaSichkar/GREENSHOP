@@ -182,12 +182,12 @@ header nav ul.dropdown{
     display: block;
     background-color: #edf6ee;
     position:absolute;
-    min-width: 188px;
+    width: 188px;
     top: 64px;
     right: -50px;
     height: 0;
     opacity: 0;
-    padding-left: 14px;
+
 }
 li.drop ul.dropdown li:last-of-type:after{
     content: "";
@@ -196,31 +196,31 @@ li.drop ul.dropdown li:last-of-type:after{
     width: 6px;
     height: 10px;
     position: absolute;
-    right: 20px;
-    top: -11px;
+    right: 17px;
+    top: -14px;
     transition: 0.5s;
 }
-li.drop ul.dropdown li:last-of-type:hover:after{
+header nav li.drop ul.dropdown li:last-of-type:hover:after{
     transform: rotate(180deg);
 }
 
-li.drop ul.dropdown_2 li:last-of-type:after{
+header nav li.drop ul.dropdown_2 li:last-of-type:after{
     display: none;
 }
-ul.dropdown li:hover:after{
+header nav ul.dropdown li:hover:after{
     background-color: transparent;
 }
 header ul.dropdown_2{
     display: block;
     background-color: #edf6ee;
     position:absolute;
-    min-width: 178px;
+    width: 178px;
     top:-76px;
-    /*right:-84px;*/
-    left: 100%;
+    right:-180px;
+    /*left: 101%;*/
     height: 0;
     opacity: 0;
-    padding-left: 14px;
+
 }
 
 header nav ul li.drop,header nav ul li.drop_2{
@@ -237,7 +237,7 @@ header nav ul li.drop_2:hover .dropdown_2{
     transition: 0.5s;
 }
 
-header nav ul .dropdown li{
+header nav ul.dropdown li{
     display: block;
     /*margin-left: 14px;*/
     /*margin-top: 7px;*/
@@ -250,6 +250,9 @@ header nav ul.dropdown li a, ul.dropdown_2 li a{
     color: #3d3d3d;
     font-family: "Encode Sans Expanded", sans-serif;
     text-decoration: none;
+    padding-left: 14px;
+    padding-top: 7px;
+    padding-bottom: 8px;
 }
 
 
@@ -299,13 +302,13 @@ header nav li ul li:hover{
 header nav li ul li{
     margin-right: 0;
 }
-
-header nav li ul li:hover a {
+header nav li ul.dropdown li ul.dropdown_2 li:hover a{
     font-weight: 700;
     font-size: 16px;
     color: #fff;
     font-family: "Encode Sans Expanded", sans-serif;
 }
+
 
 header nav li:hover:after {
     background-color: #46a358;

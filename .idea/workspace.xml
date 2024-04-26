@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add menu select">
-      <change afterPath="$PROJECT_DIR$/images/Frame_right.svg" afterDir="false" />
+    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add icon frame right">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
     </list>
@@ -112,7 +111,9 @@
       <workItem from="1713527559801" duration="61629000" />
       <workItem from="1713781049289" duration="14368000" />
       <workItem from="1713900929758" duration="11103000" />
-      <workItem from="1714001395839" duration="8337000" />
+      <workItem from="1714001395839" duration="12081000" />
+      <workItem from="1714091809970" duration="3339000" />
+      <workItem from="1714137617507" duration="1939000" />
     </task>
     <task id="LOCAL-00001" summary="add green border">
       <option name="closed" value="true" />
@@ -226,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713920708531</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add icon frame right">
+      <option name="closed" value="true" />
+      <created>1714012393738</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714012393738</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +256,7 @@
     <MESSAGE value="add icons in articls" />
     <MESSAGE value="add some changes" />
     <MESSAGE value="add menu select" />
-    <option name="LAST_COMMIT_MESSAGE" value="add menu select" />
+    <MESSAGE value="add icon frame right" />
+    <option name="LAST_COMMIT_MESSAGE" value="add icon frame right" />
   </component>
 </project>
