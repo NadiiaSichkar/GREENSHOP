@@ -303,14 +303,17 @@ header nav li ul li{
     margin-right: 0;
 
 }
-header nav li ul.dropdown li ul.dropdown_2 li:hover a, header nav li ul.dropdown li:hover a{
-    font-weight: 700;
-    font-size: 16px;
-    color: #fff;
-    font-family: "Encode Sans Expanded", sans-serif;
-}
+/*header nav li ul.dropdown li ul.dropdown_2 li:hover a, header nav li ul.dropdown li:hover a{*/
+/*    font-weight: 700;*/
+/*    font-size: 16px;*/
+/*    color: #fff;*/
+/*    font-family: "Encode Sans Expanded", sans-serif;*/
+/*}*/
 .dropdown li:hover a, .drop_2 .dropdown_2 li:hover a{
     color:white;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Encode Sans Expanded", sans-serif;
 }
 .dropdown li a, .drop_2 .dropdown_2 li a{
     color: #3d3d3d;
