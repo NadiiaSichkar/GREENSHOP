@@ -181,7 +181,8 @@ header ul {
 header nav ul.dropdown{
     /*display: block;*/
     display: inline-block;
-    background-color: #edf6ee;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #edf6ee;
     position:absolute;
     width: 188px;
     top: 64px;
@@ -224,9 +225,10 @@ header nav ul.dropdown li:hover:after{
 header ul.dropdown_2{
     /*display: block;*/
     display: inline-block;
-    background-color: #edf6ee;
+    background: #edf6ee;
+    border: 1px solid #000;
     position:absolute;
-    width: 178px;
+    min-width: 178px;
     top:-105px;
     right:-180px;
     height: 0;
@@ -293,17 +295,19 @@ header nav li ul li:after{
 }
 header nav li ul li:hover{
     background-color: #1a712a;
+
 }
 header nav li ul li{
     margin-right: 0;
 
 }
-.dropdown li:hover a, .drop_2 .dropdown_2 li:hover a{
+li.drop .dropdown li:hover a, .drop_2 .dropdown_2 li:hover a{
     color:white;
     font-weight: 700;
     font-size: 16px;
     font-family: "Encode Sans Expanded", sans-serif;
 }
+
 .drop .dropdown li a, .drop_2 .dropdown_2 li a{
     color: #3d3d3d;
     font-weight: 400;

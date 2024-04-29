@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add some ch">
-      <change afterPath="$PROJECT_DIR$/images/frame_left.svg" afterDir="false" />
+    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add frame_left.svg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
     </list>
@@ -115,7 +114,9 @@
       <workItem from="1714001395839" duration="12081000" />
       <workItem from="1714091809970" duration="3339000" />
       <workItem from="1714137617507" duration="9639000" />
-      <workItem from="1714257164154" duration="9492000" />
+      <workItem from="1714257164154" duration="9812000" />
+      <workItem from="1714349864861" duration="11624000" />
+      <workItem from="1714387618542" duration="555000" />
     </task>
     <task id="LOCAL-00001" summary="add green border">
       <option name="closed" value="true" />
@@ -261,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714142412653</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add frame_left.svg">
+      <option name="closed" value="true" />
+      <created>1714270626333</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714270626333</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +293,7 @@
     <MESSAGE value="add icon frame right" />
     <MESSAGE value="add some changes" />
     <MESSAGE value="add some ch" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some ch" />
+    <MESSAGE value="add frame_left.svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="add frame_left.svg" />
   </component>
 </project>
