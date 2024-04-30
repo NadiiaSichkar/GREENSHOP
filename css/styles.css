@@ -205,12 +205,6 @@ li.drop ul.dropdown li:last-of-type:hover:after{
     content: "";
     display: inline-block;
     background-image: url("../images/frame_left.svg");
-    width: 6px;
-    height: 10px;
-    position: absolute;
-    right: 17px;
-    top: -8px;
-    transition: 0.5s;
 }
 /*header nav li.drop ul.dropdown li:last-of-type:hover:after{*/
 /*    transform: rotate(180deg);*/
@@ -226,7 +220,6 @@ header ul.dropdown_2{
     /*display: block;*/
     display: inline-block;
     background: #edf6ee;
-    border: 1px solid #000;
     position:absolute;
     min-width: 178px;
     top:-105px;
@@ -301,7 +294,7 @@ header nav li ul li{
     margin-right: 0;
 
 }
-li.drop .dropdown li:hover a, .drop_2 .dropdown_2 li:hover a{
+li.drop .dropdown li:hover > a, .drop_2 .dropdown_2 li:hover a{
     color:white;
     font-weight: 700;
     font-size: 16px;
@@ -320,11 +313,9 @@ li.drop .dropdown li:hover a, .drop_2 .dropdown_2 li:hover a{
 }
 
 
-
 header nav li:hover:after {
     background-color: #46a358;
 }
-
 
 
 header .login{
@@ -651,7 +642,6 @@ article .art_icon li{
     height: 100%;
     text-decoration: none;
 }
-
 .categories .pagination a {
     font-weight: 300;
     font-size: 18px;
@@ -660,11 +650,9 @@ article .art_icon li{
     font-family: 'cera_prolight';
     text-decoration: none;
 }
-
 .categories .pagination li:hover  {
     background-color: #46a358;
 }
-
 .categories .pagination ul li:hover a{
     font-weight: 700;
     font-size: 18px;
@@ -687,29 +675,28 @@ article .art_icon li{
         left: 5px;
         box-shadow: #46a358 0 7px 29px 0;
     }
-
 }
+
 
 
 section.two_cards{
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    max-height: 586px;
+    max-height: 302px;
+    margin-bottom: 138px;
 }
 .left_card .right_card{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 250px;
-    padding-top: 52px;
+    max-width: 586px;
     background: #fbfbfb;
 }
 .two_cards article{
     display: inline-block;
     margin-right: 30px;
     align-items: center;
+    max-width: 292px;
 }
 .two_cards h5{
     font-weight: 900;
@@ -719,7 +706,8 @@ section.two_cards{
     text-align: right;
     color: #3d3d3d;
     font-family: 'cera_problack';
-    margin-top: 37px;
+    padding-top: 37px;
+    margin-bottom: 9px;
 }
 .two_cards p{
     font-weight: 400;
@@ -728,13 +716,14 @@ section.two_cards{
     text-align: right;
     color: #727272;
     font-family: 'cera_proregular';
-    margin-top: 9px;
     margin-bottom: 25px;
 }
 .two_cards a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     border-radius: 6px;
-    /*width: 140px;*/
-    /*height: 40px;*/
     background: #46a358;
     font-weight: 500;
     font-size: 14px;
@@ -742,21 +731,66 @@ section.two_cards{
     line-height: 143%;
     color: #fff;
     text-decoration: none;
-    padding: 11px 47px 9px 28px;
-    align-items: center;
-    display: inline-block;
+    padding: 10px 28px;
+
 
 }
 .two_cards a:after{
     content:"";
     display: inline-block;
     background-image: url("../images/Arrow-Right.svg");
-    width: 18px;
-    height: 18px;
+    width: 14px;
+    height: 12px;
     margin-left: 6px;
     background-repeat: no-repeat;
+}
 
+section.blog .name{
+    text-align: center;
+    margin-bottom: 35px;
+}
+section.blog h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53%;
+    color: #3d3d3d;
+    font-family: 'cera_probold';
+    margin-bottom: 15px;
+}
+section.blog p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+    font-family: 'cera_proregular';
 
+}
+
+.blog .posts{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.blog .posts article{
+    background: #fbfbfb;
+}
+.blog .posts article div{
+    padding-top: 9px;
+    padding-left: 15px;
+    padding-bottom: 13px;
+}
+.blog .posts span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+    font-family: 'cera_promedium';
+}
+.blog .posts span:first-of-type{
+    border-right: #46a358 1.5px solid;
+    padding-right: 5px;
 }
 
 

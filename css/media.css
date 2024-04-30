@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1200px) {
+    container_menu{
+        padding-left: 15px;
+        padding-right: 15px;
+    };
+}
+
+@media only screen and (max-width: 840px) {
+header ul li{
+    margin-right: 15px;
+}
+}
+

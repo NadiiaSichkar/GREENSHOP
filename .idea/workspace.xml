@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add section two cards">
-      <change afterPath="$PROJECT_DIR$/images/Arrow-Right.svg" afterDir="false" />
+    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add some ch">
+      <change afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/04.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -118,7 +122,7 @@
       <workItem from="1714137617507" duration="9639000" />
       <workItem from="1714257164154" duration="9812000" />
       <workItem from="1714349864861" duration="11624000" />
-      <workItem from="1714387618542" duration="11321000" />
+      <workItem from="1714387618542" duration="26792000" />
     </task>
     <task id="LOCAL-00001" summary="add green border">
       <option name="closed" value="true" />
@@ -288,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714444193292</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add some ch">
+      <option name="closed" value="true" />
+      <created>1714485360566</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1714485360566</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,8 +323,8 @@
     <MESSAGE value="add icon frame right" />
     <MESSAGE value="add some changes" />
     <MESSAGE value="add frame_left.svg" />
-    <MESSAGE value="add some ch" />
     <MESSAGE value="add section two cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="add section two cards" />
+    <MESSAGE value="add some ch" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some ch" />
   </component>
 </project>
