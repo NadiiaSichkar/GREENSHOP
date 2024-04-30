@@ -699,7 +699,7 @@ section.two_cards{
     max-height: 586px;
 }
 .left_card .right_card{
-    display: inline-block;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 250px;
@@ -710,6 +710,53 @@ section.two_cards{
     display: inline-block;
     margin-right: 30px;
     align-items: center;
+}
+.two_cards h5{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+    font-family: 'cera_problack';
+    margin-top: 37px;
+}
+.two_cards p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
+    font-family: 'cera_proregular';
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+.two_cards a{
+    border-radius: 6px;
+    /*width: 140px;*/
+    /*height: 40px;*/
+    background: #46a358;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'cera_promedium';
+    line-height: 143%;
+    color: #fff;
+    text-decoration: none;
+    padding: 11px 47px 9px 28px;
+    align-items: center;
+    display: inline-block;
+
+}
+.two_cards a:after{
+    content:"";
+    display: inline-block;
+    background-image: url("../images/Arrow-Right.svg");
+    width: 18px;
+    height: 18px;
+    margin-left: 6px;
+    background-repeat: no-repeat;
+
+
 }
 
 
