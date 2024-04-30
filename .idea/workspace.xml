@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add frame_left.svg">
+    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add some ch">
+      <change afterPath="$PROJECT_DIR$/images/image14.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image15.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +119,7 @@
       <workItem from="1714137617507" duration="9639000" />
       <workItem from="1714257164154" duration="9812000" />
       <workItem from="1714349864861" duration="11624000" />
-      <workItem from="1714387618542" duration="555000" />
+      <workItem from="1714387618542" duration="8403000" />
     </task>
     <task id="LOCAL-00001" summary="add green border">
       <option name="closed" value="true" />
@@ -270,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714270626333</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add some ch">
+      <option name="closed" value="true" />
+      <created>1714388300360</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1714388300360</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,8 +303,8 @@
     <MESSAGE value="add menu select" />
     <MESSAGE value="add icon frame right" />
     <MESSAGE value="add some changes" />
-    <MESSAGE value="add some ch" />
     <MESSAGE value="add frame_left.svg" />
-    <option name="LAST_COMMIT_MESSAGE" value="add frame_left.svg" />
+    <MESSAGE value="add some ch" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some ch" />
   </component>
 </project>

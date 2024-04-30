@@ -633,7 +633,7 @@ article .art_icon li{
 .categories .pagination ul {
     display: flex;
     margin-top: 90px;
-    margin-bottom: 82px;
+    margin-bottom: 94px;
     gap: 10px;
 }
 .categories .pagination li{
@@ -689,6 +689,29 @@ article .art_icon li{
     }
 
 }
+
+
+section.two_cards{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    max-height: 586px;
+}
+.left_card .right_card{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 250px;
+    padding-top: 52px;
+    background: #fbfbfb;
+}
+.two_cards article{
+    display: inline-block;
+    margin-right: 30px;
+    align-items: center;
+}
+
 
 
 
