@@ -185,7 +185,7 @@ header nav ul.dropdown{
     background: #edf6ee;
     position:absolute;
     width: 188px;
-    top: 64px;
+    top: 51px;
     right: -50px;
     height: 0;
     opacity: 0;
@@ -695,7 +695,7 @@ section.two_cards{
     justify-content: space-between;
     align-items: center;
     max-width: 586px;
-    padding-bottom: 52px;
+    /*padding-bottom: 52px;*/
     background: #fbfbfb;
 }
 .two_cards article{
@@ -711,7 +711,6 @@ section.two_cards{
     font-size: 18px;
     line-height: 133%;
     text-transform: uppercase;
-    /*text-align: right;*/
     color: #3d3d3d;
     font-family: 'cera_problack';
     padding-top: 37px;
@@ -721,7 +720,6 @@ section.two_cards{
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
-    /*text-align: right;*/
     color: #727272;
     font-family: 'cera_proregular';
     margin-bottom: 25px;
@@ -783,6 +781,7 @@ section.blog p{
 }
 .blog .posts article{
     background: #fbfbfb;
+    max-width: 268px;
 }
 .blog .posts article div{
     padding-top: 9px;
@@ -848,8 +847,158 @@ section.blog p{
     content:"";
     display: inline-block;
     background-image: url("../images/Arrow_right_green.svg")
+}
+
+footer .footer{
+    max-width: 1200px;
+    max-height: 610px;
+    margin: auto;
+    background-color: #fbfbfb;
+}
+footer .newsletters{
+    display: flex;
+    justify-content: center;
+    /*max-width: 1200px;*/
+    /*background-color: #fbfbfb;*/
+    /*margin: auto;*/
 
 }
+.newsletters article{
+    padding: 25px;
+
+}
+.newsletters article h6{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 94%;
+    color: #3d3d3d;
+    font-family: 'cera_probold';
+    padding-top: 15px;
+    margin-bottom: 9px;
+}
+.newsletters article p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    font-family: 'cera_proregular';
+}
+
+.newsletters article:after{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/Rectangle36.svg");
+}
+
+.newsletters .right_said{
+    max-width: 354px;
+    margin-right: 25px;
+    padding-top: 25px;
+}
+.right_said h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    font-family: 'cera_probold';
+    margin-bottom: 25px;
+}
+.right_said .mail {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.right_said input{
+    border-radius: 6px 0 0 6px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #acacac;
+    font-family: 'cera_proregular';
+    padding: 12px 86px 12px 11px;
+   ;
+}
+.right_said .mail a{
+    border-radius: 0 6px 6px 0;
+    background: #46a358;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+    font-family: 'cera_probold';
+    padding: 12px 25px;
+}
+.right_said p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    color: #727272;
+    font-family: 'cera_proregular';
+
+}
+footer .gradient{
+    height: 88px;
+    background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-left: 22px;
+    padding-right: 22px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.gradient a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #3d3d3d;
+    font-family: 'cera_proregular';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gradient .location:before {
+    content: "";
+    background-image: url("../images/location.svg");
+    width: 20px;
+    height: 20px;
+    padding-left: 9px;
+    background-repeat: no-repeat;
+}
+.gradient .contact:before{
+    content: "";
+    background-image: url("../images/contact.svg");
+    width: 20px;
+    height: 20px;
+    padding-left: 9px;
+    background-repeat: no-repeat;
+}
+.gradient .phone:before{
+    content: "";
+    background-image: url("../images/phone.svg");
+    width: 20px;
+    height: 20px;
+    padding-left: 9px;
+    background-repeat: no-repeat;
+}
+footer .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 155px 27px 25px;
+    border-bottom: 1px solid green;
+
+}
+
+
+
+
+
+
 
 
 

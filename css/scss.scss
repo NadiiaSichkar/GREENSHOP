@@ -1,0 +1,347 @@
+@font-face {
+  font-family: 'cera_proregular';
+  src: url('../fonts/cerapro-regular-webfont.eot');
+  src: url('../fonts/cerapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/cerapro-regular-webfont.woff2') format('woff2'),
+  url('../fonts/cerapro-regular-webfont.woff') format('woff'),
+  url('../fonts/cerapro-regular-webfont.ttf') format('truetype'),
+  url('../fonts/cerapro-regular-webfont.svg#cera_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cera_problack';
+  src: url('../fonts/cerapro-black-webfont.eot');
+  src: url('../fonts/cerapro-black-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/cerapro-black-webfont.woff2') format('woff2'),
+  url('../fonts/cerapro-black-webfont.woff') format('woff'),
+  url('../fonts/cerapro-black-webfont.ttf') format('truetype'),
+  url('../fonts/cerapro-black-webfont.svg#cera_problack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cera_promedium';
+  src: url('../fonts/cerapro-medium-webfont.eot');
+  src: url('../fonts/cerapro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/cerapro-medium-webfont.woff2') format('woff2'),
+  url('../fonts/cerapro-medium-webfont.woff') format('woff'),
+  url('../fonts/cerapro-medium-webfont.ttf') format('truetype'),
+  url('../fonts/cerapro-medium-webfont.svg#cera_promedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cera_probold';
+  src: url('../fonts/cerapro-bold-webfont.eot');
+  src: url('../fonts/cerapro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/cerapro-bold-webfont.woff2') format('woff2'),
+  url('../fonts/cerapro-bold-webfont.woff') format('woff'),
+  url('../fonts/cerapro-bold-webfont.ttf') format('truetype'),
+  url('../fonts/cerapro-bold-webfont.svg#cera_probold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cera_prolight';
+  src: url('../fonts/cerapro-light-webfont.eot');
+  src: url('../fonts/cerapro-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/cerapro-light-webfont.woff2') format('woff2'),
+  url('../fonts/cerapro-light-webfont.woff') format('woff'),
+  url('../fonts/cerapro-light-webfont.ttf') format('truetype'),
+  url('../fonts/cerapro-light-webfont.svg#cera_prolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114%;
+  color: #a5a5a5;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  border: solid 2px black;
+  border-bottom: 10px #46a358 solid;
+  padding: 52px 100px 50px;
+  box-sizing: border-box
+}
+
+#box_model {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 123%;
+  color: #3d3d3d;
+  margin-bottom: 14px;
+}
+
+.mb {
+  margin-bottom: 27px;
+  text-align: center;
+}
+
+button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+  padding: 13px 118px;
+  margin-bottom: 36px;
+  background: #46a358;
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+  height: 40px;
+}
+
+.container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #eaeaee;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 123%;
+  color: #727272;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.container #box_model span:first-of-type {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 80%;
+  color: #3d3d3d;
+  border-right: 1px solid;
+  padding-right: 5px;
+}
+
+.container #box_model span:last-of-type {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 80%;
+  color: #46a358;
+  padding-left: 5px;
+}
+
+.norm {
+  max-width: 1200px;
+  margin: auto;
+  border-bottom: solid 1px darkolivegreen;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  padding-top: 30px;
+  margin-bottom: 12px;
+}
+
+header nav, header nav li, header .logo {
+  /*display: inline-block;*/
+  /*text-align: center;*/
+  align-items: center;
+
+}
+.logo, .login, nav {
+  margin: 0 10px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+header nav ul.dropdown{
+  /*display: block;*/
+  display: inline-block;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #edf6ee;
+  position:absolute;
+  width: 188px;
+  top: 51px;
+  right: -50px;
+  height: 0;
+  opacity: 0;
+  display: none;
+}
+li.drop ul.dropdown li:last-of-type:after{
+  content: "";
+  display: inline-block;
+  background-image: url("../images/Frame_right.svg");
+  width: 6px;
+  height: 10px;
+  position: absolute;
+  right: 17px;
+  top: -8px;
+  transition: 0.5s;
+}
+li.drop ul.dropdown li:last-of-type:hover:after{
+  content: "";
+  display: inline-block;
+  background-image: url("../images/frame_left.svg");
+}
+/*header nav li.drop ul.dropdown li:last-of-type:hover:after{*/
+/*    transform: rotate(180deg);*/
+/*}*/
+
+header nav li.drop ul.dropdown_2 li:last-of-type:after{
+  display: none;
+}
+header nav ul.dropdown li:hover:after{
+  background-color: transparent;
+}
+header ul.dropdown_2{
+  /*display: block;*/
+  display: inline-block;
+  background: #edf6ee;
+  position:absolute;
+  min-width: 178px;
+  top:-105px;
+  right:-180px;
+  height: 0;
+  opacity: 0;
+
+
+}
+
+header nav ul li.drop,header nav ul li.drop_2{
+  position: relative;
+}
+header nav ul li.drop:hover .dropdown{
+  opacity:1;
+  height: auto;
+  transition: 0.5s;
+  display: block;
+
+}
+header nav ul li.drop_2:hover .dropdown_2{
+  opacity:1;
+  height: auto;
+  transition: 0.5s;
+}
+
+header nav ul.dropdown li{
+  display: block;
+  /*margin-left: 14px;*/
+  /*margin-top: 7px;*/
+  /*margin-bottom: 7px;*/
+  border: none;
+}
+
+header nav li a {
+  text-decoration: none;
+}
+
+header nav li {
+  /*margin-right: 50px;*/
+  font-family: 'cera_proregular';
+}
+
+header nav li:hover a{
+  font-weight: bold;
+}
+
+header nav li:last-of-type {
+  /*margin-right: 0;*/
+}
+
+header nav li a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #3d3d3d;
+}
+
+header nav li:after {
+  height: 3px;
+  /*background-color: #46a358;*/
+  background-color: transparent;
+  width: 100%;
+  content: "";
+  display: block;
+  margin-top: 22px;
+  transition: 0.3s ;
+}
+header nav li ul li:after{
+  display: none;
+}
+header nav li ul li:hover{
+  background-color: #1a712a;
+
+}
+header nav li ul li{
+  margin-right: 0;
+
+}
+li.drop .dropdown li:hover > a, .drop_2 .dropdown_2 li:hover a{
+  color:white;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+
+.drop .dropdown li a, .drop_2 .dropdown_2 li a{
+  color: #3d3d3d;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Encode Sans Expanded", sans-serif;
+  padding-left: 14px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+
+header nav li:hover:after {
+  background-color: #46a358;
+}
+
+
+header .login{
+  height: 35px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 6px;
+  background: #46a358;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 8px 17px 7px;
+  text-decoration: none;
+  font-family: 'cera_promedium';
+}
+.login:before{
+  content: "";
+  display: inline-block;
+  background-image: url("../images/Logout.svg");
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
