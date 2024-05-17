@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add footer some changes" />
+    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add last section" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +125,7 @@
       <workItem from="1715103840935" duration="1373000" />
       <workItem from="1715557512832" duration="21705000" />
       <workItem from="1715766882120" duration="10039000" />
-      <workItem from="1715944287916" duration="7625000" />
+      <workItem from="1715944287916" duration="8070000" />
     </task>
     <task id="LOCAL-00001" summary="add green border">
       <option name="closed" value="true" />
@@ -335,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715951758525</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add last section">
+      <option name="closed" value="true" />
+      <created>1715952120924</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1715952120924</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,6 +372,7 @@
     <MESSAGE value="add blog" />
     <MESSAGE value="add footer" />
     <MESSAGE value="add footer some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add footer some changes" />
+    <MESSAGE value="add last section" />
+    <option name="LAST_COMMIT_MESSAGE" value="add last section" />
   </component>
 </project>
