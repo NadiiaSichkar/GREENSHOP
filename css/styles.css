@@ -841,19 +841,91 @@ section.blog p{
     font-size: 14px;
     line-height: 114%;
     color: #46a358;
-    font-family: 'cera_promedium';
+
 }
 .blog .posts a:hover:after{
     content:"";
-    display: inline-block;
+    display: inline-block;font-family: 'cera_promedium';
     background-image: url("../images/Arrow_right_green.svg")
 }
+
+.owl-dots{
+    text-align: center;
+}
+.owl-dot span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: #3d3d3d;
+}
+.owl-dot .active span{
+    background-color: #1a712a  ;
+}
+
+
+
+
+section .faq {
+    max-width: 1200px;
+    margin: auto;
+    border-bottom: none;
+
+}
+.ui-accordion .ui-accordion-header {
+    border-radius: 22px;
+    padding: 20px 16px;
+    background-color: transparent;
+    border: solid 2px #46a358;
+
+}
+.ui-accordion .ui-accordion-header .ui-state-active {
+    background-color: antiquewhite;
+    border-bottom: none;
+    border-radius: 22px 22px 0 0;
+
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    border: solid 2px #46a358;
+    color: black;
+}
+.ui-accordion .ui-accordion-content{
+    border: solid 2px #46a358;
+    background-color: antiquewhite;
+    border-radius: 0 0 22px 22px;
+    overflow: visible;
+    border-top: none;
+}
+.ui-icon{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    background-image: none;
+    background-position: 0;
+    text-indent: 0;
+}
+
+.ui-icon:after{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/chevron-down.svg");
+}
+
+
+
+
+
+
 
 footer .footer{
     max-width: 1200px;
     max-height: 610px;
     margin: auto;
     background-color: #fbfbfb;
+
 }
 footer .newsletters{
     display: flex;
@@ -886,7 +958,7 @@ footer .newsletters{
 
 .newsletters article:after{
     content: "";
-    display: inline-block;
+    display: block;
     background-image: url("../images/Rectangle36.svg");
 }
 
@@ -919,7 +991,7 @@ footer .newsletters{
     color: #acacac;
     font-family: 'cera_proregular';
     padding: 12px 86px 12px 11px;
-   ;
+
 }
 .right_said .mail a{
     border-radius: 0 6px 6px 0;
@@ -956,7 +1028,7 @@ footer .gradient{
     font-size: 14px;
     line-height: 157%;
     color: #3d3d3d;
-    font-family: 'cera_proregular';
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -993,6 +1065,85 @@ footer .info{
     border-bottom: 1px solid green;
 
 }
+footer .info h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    font-family: 'cera_probold';
+    margin-bottom: 8px;
+}
+
+footer .info ul li{
+    list-style: none;
+}
+footer .info ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+    font-family: 'cera_proregular';
+    padding: 7px;
+}
+
+footer .info ul li a:hover{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #46a358;
+    font-family: 'cera_proregular';
+
+}
+footer .social_icons{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    margin-bottom: 33px;
+
+}
+footer .social  ul li{
+    display: inline-block;
+    border: 1px solid rgba(70, 163, 88, 0.2);
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+}
+footer .social  ul li:hover{
+    border-color: darkgreen ;
+    background-color: #727272;
+}
+
+footer .social  ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+footer img{
+    padding-top: 13px;
+}
+
+footer .all_rights{
+    display: flex;
+   justify-content:center;
+    align-items: center;
+    padding-top: 6px;
+    margin-bottom: 22px;
+}
+footer .all_rights p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+    font-family: 'cera_proregular';
+}
+
+
+
 
 
 
