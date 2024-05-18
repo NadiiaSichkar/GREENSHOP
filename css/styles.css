@@ -106,12 +106,12 @@ button {
     font-size: 16px;
     line-height: 100%;
     color: #fff;
-    padding: 13px 118px;
+    padding: 13px 119px;
     margin-bottom: 36px;
     background: #46a358;
     border-radius: 5px;
     border: none;
-    width: 300px;
+    /*width: 300px;*/
     height: 40px;
 }
 
@@ -773,7 +773,7 @@ section.blog p{
 }
 
 .blog .posts{
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
@@ -860,7 +860,7 @@ section.blog p{
     margin: 10px;
     background-color: #3d3d3d;
 }
-.owl-dot .active span{
+.owl-dots .active span{
     background-color: #1a712a  ;
 }
 
@@ -871,50 +871,48 @@ section .faq {
     max-width: 1200px;
     margin: auto;
     border-bottom: none;
-
 }
-.ui-accordion .ui-accordion-header {
+
+.faq .ui-accordion .ui-accordion-header {
     border-radius: 22px;
     padding: 20px 16px;
     background-color: transparent;
     border: solid 2px #46a358;
-
 }
-.ui-accordion .ui-accordion-header .ui-state-active {
+
+.faq.ui-accordion .ui-accordion-header .ui-state-active {
     background-color: antiquewhite;
-    border-bottom: none;
     border-radius: 22px 22px 0 0;
-
+    border-bottom: none;
 }
 
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+.faq .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
     border: solid 2px #46a358;
     color: black;
 }
-.ui-accordion .ui-accordion-content{
+
+.faq .ui-accordion .ui-accordion-content{
     border: solid 2px #46a358;
     background-color: antiquewhite;
     border-radius: 0 0 22px 22px;
     overflow: visible;
     border-top: none;
 }
-.ui-icon{
-    width: 16px;
-    height: 16px;
+
+.ui-state-active .ui-icon{
     position: absolute;
-    right: 20px;
+    right: 27px;
     background-image: none;
     background-position: 0;
     text-indent: 0;
 }
-
 .ui-icon:after{
     content: "";
     display: inline-block;
     background-image: url("../images/chevron-down.svg");
+    width: 32px;
+    height: 32px;
 }
-
-
 
 
 
@@ -925,18 +923,16 @@ footer .footer{
     max-height: 610px;
     margin: auto;
     background-color: #fbfbfb;
+    border-top: none;
 
 }
 footer .newsletters{
     display: flex;
     justify-content: center;
-    /*max-width: 1200px;*/
-    /*background-color: #fbfbfb;*/
-    /*margin: auto;*/
-
 }
 .newsletters article{
     padding: 25px;
+    position: relative;
 
 }
 .newsletters article h6{
@@ -956,10 +952,15 @@ footer .newsletters{
     font-family: 'cera_proregular';
 }
 
-.newsletters article:after{
+.newsletters article:nth-child(-n+2):after{
     content: "";
     display: block;
     background-image: url("../images/Rectangle36.svg");
+    width: 1px;
+    height: 187px;
+    position: absolute;
+    right: 30px;
+    top: 40px;
 }
 
 .newsletters .right_said{
@@ -980,6 +981,8 @@ footer .newsletters{
     justify-content: center;
     text-align: center;
     margin-bottom: 18px;
+    max-width: 354px;
+    height: 40px;
 }
 .right_said input{
     border-radius: 6px 0 0 6px;
@@ -1062,7 +1065,7 @@ footer .info{
     display: flex;
     justify-content: space-between;
     padding: 33px 155px 27px 25px;
-    border-bottom: 1px solid green;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 
 }
 footer .info h5{
@@ -1097,11 +1100,10 @@ footer .info ul li a:hover{
 }
 footer .social_icons{
     display: flex;
-    gap: 10px;
     padding-top: 10px;
     margin-bottom: 33px;
-
 }
+
 footer .social  ul li{
     display: inline-block;
     border: 1px solid rgba(70, 163, 88, 0.2);
@@ -1110,7 +1112,7 @@ footer .social  ul li{
     height: 30px;
 }
 footer .social  ul li:hover{
-    border-color: darkgreen ;
+    /*border-color: darkgreen ;*/
     background-color: #727272;
 }
 
@@ -1121,11 +1123,10 @@ footer .social  ul li a{
 }
 
 
-
-
 footer img{
-    padding-top: 13px;
+    padding-top: 10px;
 }
+
 
 footer .all_rights{
     display: flex;
