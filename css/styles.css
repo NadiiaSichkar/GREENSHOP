@@ -1065,8 +1065,7 @@ footer .info{
     display: flex;
     justify-content: space-between;
     padding: 33px 155px 27px 25px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
 }
 footer .info h5{
     font-weight: 700;
@@ -1103,17 +1102,16 @@ footer .social_icons{
     padding-top: 10px;
     margin-bottom: 33px;
 }
+footer .social_icons ul{
+    display: flex;
+    gap: 10px;
+}
 
 footer .social  ul li{
-    display: inline-block;
     border: 1px solid rgba(70, 163, 88, 0.2);
     border-radius: 4px;
     width: 30px;
     height: 30px;
-}
-footer .social  ul li:hover{
-    /*border-color: darkgreen ;*/
-    background-color: #727272;
 }
 
 footer .social  ul li a{
@@ -1121,7 +1119,9 @@ footer .social  ul li a{
     justify-content: center;
     align-items: center;
 }
-
+footer .social  ul li:hover {
+    background-color: #727272;
+}
 
 footer img{
     padding-top: 10px;
@@ -1130,7 +1130,7 @@ footer img{
 
 footer .all_rights{
     display: flex;
-   justify-content:center;
+    justify-content:center;
     align-items: center;
     padding-top: 6px;
     margin-bottom: 22px;
