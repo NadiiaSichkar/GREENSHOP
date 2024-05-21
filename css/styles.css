@@ -73,6 +73,15 @@ input {
     height: 40px;
     box-sizing: border-box;
 }
+.password{
+    position: relative;
+}
+.hide_icon{
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+
 
 .container {
     max-width: 500px;
@@ -80,7 +89,7 @@ input {
     border: solid 2px black;
     border-bottom: 10px #46a358 solid;
     padding: 52px 100px 50px;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 #box_model {
@@ -132,6 +141,25 @@ button {
     height: 40px;
     box-sizing: border-box;
 }
+.mb:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/line.svg");
+    height: 1px;
+    width: 97px;
+    padding-left: 7px;
+    margin-bottom: 4px;
+}
+.mb:after{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/line.svg");
+    height: 1px;
+    width: 97px;
+    padding-right: 7px;
+    margin-bottom: 4px;
+}
+
 
 .container #box_model span:first-of-type {
     font-weight: 500;
@@ -139,7 +167,7 @@ button {
     line-height: 80%;
     color: #3d3d3d;
     border-right: 1px solid;
-    padding-right: 5px;
+    padding-right: 12px;
 }
 
 .container #box_model span:last-of-type {
@@ -147,7 +175,7 @@ button {
     font-size: 20px;
     line-height: 80%;
     color: #46a358;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 .norm {
@@ -995,6 +1023,7 @@ footer .newsletters{
     font-family: 'cera_proregular';
     padding: 12px 86px 12px 11px;
 
+
 }
 .right_said .mail a{
     border-radius: 0 6px 6px 0;
@@ -1031,7 +1060,6 @@ footer .gradient{
     font-size: 14px;
     line-height: 157%;
     color: #3d3d3d;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
