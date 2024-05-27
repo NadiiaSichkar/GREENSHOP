@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add mob menu">
+    <list default="true" id="3ea87645-e011-4349-ad6d-ccd2640ecd51" name="Changes" comment="add some changes">
+      <change afterPath="$PROJECT_DIR$/images/I.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mob_menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mob_menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
@@ -52,7 +53,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/bootstrap&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/GREENSHOP/images&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -133,7 +134,8 @@
       <workItem from="1715944287916" duration="21358000" />
       <workItem from="1716233737075" duration="22983000" />
       <workItem from="1716315672933" duration="582000" />
-      <workItem from="1716335300537" duration="4238000" />
+      <workItem from="1716335300537" duration="6607000" />
+      <workItem from="1716670832005" duration="6889000" />
     </task>
     <task id="LOCAL-00001" summary="add green border">
       <option name="closed" value="true" />
@@ -383,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716257394776</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add some changes">
+      <option name="closed" value="true" />
+      <created>1716340463781</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1716340463781</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,8 +423,8 @@
     <MESSAGE value="add footer some changes" />
     <MESSAGE value="add last section" />
     <MESSAGE value="add favicon" />
-    <MESSAGE value="add some changes" />
     <MESSAGE value="add mob menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mob menu" />
+    <MESSAGE value="add some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some changes" />
   </component>
 </project>
